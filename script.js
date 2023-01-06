@@ -15,7 +15,7 @@ function checkemail () {
         email.style.borderColor = 'red'
     } else if (email.value.includes('@') && email.value.includes('.')) {
         error.style.opacity = '0'
-        email.style.borderColor = 'green'
+        email.style.borderColor = 'hsl(0, 0%, 59%)'
     } else {
         error.style.opacity = '1'
         email.style.borderColor = 'red'
