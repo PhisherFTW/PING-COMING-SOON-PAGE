@@ -1,0 +1,99 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.graph {
+    max-width: 40rem;
+}
+.logo {
+    margin-top: 2rem;
+}
+.title {
+    font-weight: 300;
+}
+.soon {
+    font-weight: 700;
+}
+.icon {
+    width: 1rem;
+    margin: 1rem;
+}
+#email {
+    border-radius: 2rem;
+    width: 23rem;
+    height: 3rem;
+    border: 1px solid hsl(0, 0%, 59%);
+    padding: 0;
+    padding-left: 2rem;
+    opacity: 0.5;
+}
+.email:focus {
+    outline: none;
+}
+.btn {
+    border-radius: 2rem;
+    width: 13rem;
+    height: 3rem;
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    border: none;
+    border: 1px solid hsl(223, 87%, 63%);
+    cursor: pointer;
+    box-shadow: 5px 3px 36px 0px rgba(79,125,243,0.75);
+    margin-left: 1rem;
+}
+.infodiv {
+    margin-bottom: 3.8rem;
+}
+.bottom {
+    font-size: small;
+    opacity: 0.4;
+    font-weight: 300;
+}
+#error {
+    color: red;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 2rem;
+}
+.inputdata {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Libre Franklin', sans-serif;
+        text-align: center;
+        font-size: 20px;
+        margin: 1rem;
+    }
+    .inputdata {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn {
+        margin-top: 1rem;
+        width: 23rem;
+        margin-left: 0;
+    }
+    .graph {
+        max-width: 23rem;
+    }
+    #error {
+        color: red;
+        font-size: 12px;
+        text-align: center;
+    }
+}
